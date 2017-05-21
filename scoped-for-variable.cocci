@@ -1,3 +1,6 @@
+// Quite often, the loop variable in a 'for' loop isn't used elsewhere.
+// C99 allows us to reduce the scope to *just* the 'for' loop.
+
 @@
 type T;
 identifier i;

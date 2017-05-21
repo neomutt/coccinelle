@@ -1,3 +1,7 @@
+// 'if' statements that contain an assignment and a test are hard to read.
+// This script splits them in two.
+// After running this script, it would be a good idea to run null-check.cocci
+
 @else_if@
 expression E1, E2;
 statement S1, S2;

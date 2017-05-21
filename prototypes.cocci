@@ -1,3 +1,6 @@
+// Function prototypes are more useful when the arguments have names.
+// This script adds 'FIXME' placemarkers to be filled in by the user.
+
 @ok@
 type T1;
 identifier fn;

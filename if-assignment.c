@@ -1,3 +1,5 @@
+/* 'if's that contain an assigment and a test are hard to read */
+
 int main()
 {
   if ((mike1 = fn1(x)) == NULL)
@@ -47,5 +49,4 @@ int main()
     something6();
   else if ((mike6 = fn6(x)) >= NULL)
     other6();
-
 }

@@ -1,3 +1,6 @@
+// 'if' conditions of the form `if (x)` or `if (!x)` should only be used with
+// pointers and booleans.  Expand any integer tests to `x == 0`, `x != 0`
+
 @a_bool@
 typedef bool;
 bool I;

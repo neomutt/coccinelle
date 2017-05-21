@@ -1,3 +1,5 @@
+// When checking pointers against `NULL`, write then in a condensed format.
+
 @@
 type T;
 T *I;

@@ -1,3 +1,4 @@
+/* The 'if' conditions would be easier to read if swapped */
 
 int main()
 {
@@ -7,5 +8,4 @@ int main()
     something();
   else
     other();
-
 }

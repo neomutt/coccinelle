@@ -1,3 +1,4 @@
+/* The scope of 'for' variable 'i' could be smaller */
 
 int main()
 {
@@ -12,6 +13,5 @@ int main()
     wibble(i, j);
   }
 
-  j = h = i;
+  j = h;
 }
-

@@ -1,3 +1,4 @@
+/* The 'if's test whether a bool, pointer or integer is 'true'. */
 
 int main()
 {
@@ -94,6 +95,4 @@ int main()
   //   something();
   // else
   //   other();
-
 }
-

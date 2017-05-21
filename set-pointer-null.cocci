@@ -1,3 +1,5 @@
+// Initialise all pointers to NULL.
+
 @@
 identifier fn;
 type T;

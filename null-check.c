@@ -1,3 +1,4 @@
+/* These pointer tests against NULL can be simplified */
 
 int main()
 {

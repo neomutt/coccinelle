@@ -1,4 +1,6 @@
-// Rename a function and rearrange the args
+// This sample script renames a function and rearranges the arguments.
+// It's easily extended to add/remove an argument.
+
 @@
 type T1, T2, T3;
 identifier I1, I2, I3;
