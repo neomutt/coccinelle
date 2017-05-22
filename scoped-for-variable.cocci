@@ -3,16 +3,15 @@
 
 @@
 type T;
-identifier i;
+identifier I;
 statement S;
-expression e1, e2, e3;
+expression E1, E2, E3;
 @@
 
-( 
-- T i;
-<+... when != i
-- for (i = e1; e2; e3) S
-+ for (T i = e1; e2; e3) S
-...+>
-)
+- T I;
+  ... when != I
+- for (I = E1; E2; E3)
++ for (T I = E1; E2; E3)
+    S
+  ... when != I
 

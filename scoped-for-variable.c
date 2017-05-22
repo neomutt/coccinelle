@@ -1,17 +1,22 @@
-/* The scope of 'for' variable 'i' could be smaller */
+/* The scope of the 'for' loop variables could be smaller */
 
 int main()
 {
-  int i;
+  int h, i, j;
 
   h = 42;
-  j = 99;
+
+  char *a, *b;
 
   for (i = 0; i < 10; i++)
   {
-    h = i;
-    wibble(i, j);
+    fn(i);
   }
 
-  j = h;
+  for (j = 0; j < 10; j++)
+  {
+    fn(j);
+  }
+
+  h = 99;
 }
