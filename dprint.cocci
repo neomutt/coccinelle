@@ -15,14 +15,15 @@ expression E;
   )
 
 @@
-identifier I1, I2;
+expression E;
+identifier I;
 @@
 
 - mutt_debug_WIP
 + mutt_debug
   (
-  I1,
-- I2,
+  E,
+- I,
   ...
   );
 
