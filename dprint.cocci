@@ -1,24 +1,28 @@
+// Replace Mutt's `dprint()` with NeoMutt's `mutt_debug()`
+// This requires removing a parameter and a set of parentheses.
+
 @@
-constant C;
+expression E;
 @@
 
 - dprint
-+ mutt_debug
++ mutt_debug_WIP
   (
-  C,
+  E,
 - (
   ...
 - )
   )
 
 @@
-constant C;
-identifier I;
+identifier I1, I2;
 @@
 
-  mutt_debug(
-  C,
-- I,
+- mutt_debug_WIP
++ mutt_debug
+  (
+  I1,
+- I2,
   ...
   );
 

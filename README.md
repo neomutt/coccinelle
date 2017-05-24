@@ -14,7 +14,7 @@ They may, or may not, get used in the NeoMutt project.
 
 | Coccinelle Script                                | Test C                          | Description                                             |
 | :----------------------------------------------- | :------------------------------ | :------------------------------------------------------ |
-| [dprint](dprint.cocci)                           | [source](dprint.c)              | Replace `dprint()` with mutt_debug()`                   |
+| [dprint](dprint.cocci)                           | [source](dprint.c)              | Replace Mutt's `dprint()` with NeoMutt's `mutt_debug()` |
 | [if-assignment](if-assignment.cocci)             | [source](if-assignment.c)       | Split up `if` statements containing an assignment       |
 | [not-pointer](not-pointer.cocci)                 | [source](not-pointer.c)         | Only allow `if (x)` for bools and pointers              |
 | [not-swap](not-swap.cocci)                       | [source](not-swap.c)            | Swap `if (!x)` clauses                                  |
