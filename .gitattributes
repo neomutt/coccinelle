@@ -1,0 +1,2 @@
+# Force GitHub to syntax-highlight our files
+*.cocci linguist-language=diff
