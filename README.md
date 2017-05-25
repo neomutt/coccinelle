@@ -23,6 +23,13 @@ They may, or may not, get used in the NeoMutt project.
 | [rename-function](rename-function.cocci)         |                                 | Rename a function, reordering the arguments             |
 | [scoped-for-variable](scoped-for-variable.cocci) | [source](scoped-for-variable.c) | Reduce the scope of a `for` loop variable               |
 | [set-pointer-null](set-pointer-null.cocci)       |                                 | Set all pointers to NULL when declared                  |
+| [strcmp](strcmp.cocci)                           |                                 | Test strcmp-like functions against 0                    |
+| [tidy-return](tidy-return.cocci)                 |                                 | Simplify return statements                              |
+
+## Copyright
+
+Unless otherwise stated, these scripts and samples are copyrighted by Richard
+Russon (flatcap) and released under the [GPLv2](LICENSE.md).
 
 ## Where Can I Find Coccinelle?
 
